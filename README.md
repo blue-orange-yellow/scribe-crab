@@ -4,6 +4,9 @@
 [![GitHub stars](https://img.shields.io/github/stars/blue-orange-yellow/scribe-crab?style=social)](https://github.com/blue-orange-yellow/scribe-crab/stargazers)
 
 An MCP server that generates documentation comments for Rust.
+![ChatGPT Image 2025年3月29日 20_55_37](https://github.com/user-attachments/assets/c7cc9514-cac5-4fc9-9145-800375be6bb6)
+
+
 
 ## Overview
 
