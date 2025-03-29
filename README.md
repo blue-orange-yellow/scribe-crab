@@ -1,10 +1,13 @@
-# Scribe Crab
+# scribe-crab
+![Rust](https://img.shields.io/badge/rust-2024-orange)
+![GitHub forks](https://img.shields.io/github/forks/blue-orange-yellow/scribe-crab?style=social)
+[![GitHub stars](https://img.shields.io/github/stars/blue-orange-yellow/scribe-crab?style=social)](https://github.com/blue-orange-yellow/scribe-crab/stargazers)
 
 An MCP server that generates documentation comments for Rust.
 
 ## Overview
 
-Scribe Crab is an MCP (Model Context Protocol) server that helps developers generate documentation comments for their Rust functions. It takes Rust function code as input and produces documentation comments following a customizable format.
+scribe-crab is an MCP (Model Context Protocol) server that helps developers generate documentation comments for their Rust functions. It takes Rust function code as input and produces documentation comments following a customizable format.
 
 ## Features
 
