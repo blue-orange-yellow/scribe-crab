@@ -1,6 +1,6 @@
 # Scribe Crab
 
-An MCP server that generates documentation comments for Rust functions.
+An MCP server that generates documentation comments for Rust.
 
 ## Overview
 
