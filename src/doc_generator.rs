@@ -17,13 +17,13 @@ impl DocGenerator {
         #[schemars(description = "The Rust function code to document")]
         code: String,
     ) -> Result<CallToolResult, McpError> {
-        // 環境変数からフォーマットファイルのパスを取得する
+        // Get the format file path from environment variable
         let format_path = std::env::var("FORMAT_PATH").map_err(|e| {
             let error_message = format!("Failed to read format file at {}", e);
             McpError::internal_error(error_message, Some(e.to_string().into()))
         })?;
 
-        // ファイルが存在するか確認
+        // Check if the file exists
         if !std::path::Path::new(&format_path).exists() {
             return Err(McpError::internal_error(
                 format!("Format file not found at {}", format_path),
@@ -41,8 +41,8 @@ impl DocGenerator {
             format, code
         );
 
-        // このツールの実際の実装では、モデルにプロンプトを送信してドキュメントを生成する
-        // ここでは簡易的な実装として、プロンプトテキストを返します
+        // In the actual implementation of this tool, we would send the prompt to a model to generate documentation
+        // As a simplified implementation, we return the prompt text
         Ok(CallToolResult::success(vec![Content::text(format!(
             "Generated documentation for function:\n{}",
             prompt_text

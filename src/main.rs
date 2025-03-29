@@ -1,10 +1,10 @@
+mod doc_generator;
+
 use anyhow::Result;
 
-use app::DocGenerator;
+use doc_generator::DocGenerator;
 use rmcp::{ServiceExt, transport::stdio};
 use tracing_subscriber::EnvFilter;
-
-mod app;
 
 #[tokio::main]
 async fn main() -> Result<()> {
