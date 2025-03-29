@@ -1,10 +1,13 @@
-# Scribe Crab
+# scribe-crab
+![Rust](https://img.shields.io/badge/rust-2024-orange)
+![GitHub forks](https://img.shields.io/github/forks/blue-orange-yellow/scribe-crab?style=social)
+[![GitHub stars](https://img.shields.io/github/stars/blue-orange-yellow/scribe-crab?style=social)](https://github.com/blue-orange-yellow/scribe-crab/stargazers)
 
 Rust関数のドキュメントコメントを生成するMCPサーバー。
 
 ## 概要
 
-Scribe CrabはRust関数のドキュメントコメントを生成するMCP（Model Context Protocol）サーバーです。Rust関数のコードを入力として受け取り、カスタマイズ可能なフォーマットに従ってドキュメントコメントを生成します。
+scribe-crabはRust関数のドキュメントコメントを生成するMCP（Model Context Protocol）サーバーです。Rust関数のコードを入力として受け取り、カスタマイズ可能なフォーマットに従ってドキュメントコメントを生成します。
 
 ## 特徴
 
@@ -74,3 +77,11 @@ Cursorなどのクライアントで使用するためには、MCPサーバー�
 - [English](../../README.md)
 - [中文](README.zh.md)
 - [Español](README.es.md)
+
+## ライセンス
+
+MIT
+
+## 貢献
+
+貢献は歓迎します！お気軽にPull Requestを提出してください。

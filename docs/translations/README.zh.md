@@ -1,10 +1,13 @@
-# Scribe Crab
+# scribe-crab
+![Rust](https://img.shields.io/badge/rust-2024-orange)
+![GitHub forks](https://img.shields.io/github/forks/blue-orange-yellow/scribe-crab?style=social)
+[![GitHub stars](https://img.shields.io/github/stars/blue-orange-yellow/scribe-crab?style=social)](https://github.com/blue-orange-yellow/scribe-crab/stargazers)
 
 一个用于生成Rust函数文档注释的MCP服务器。
 
 ## 概述
 
-Scribe Crab是一个MCP（Model Context Protocol）服务器，帮助开发者为其Rust函数生成文档注释。它接收Rust函数代码作为输入，并根据可自定义的格式生成文档注释。
+scribe-crab是一个MCP（Model Context Protocol）服务器，帮助开发者为其Rust函数生成文档注释。它接收Rust函数代码作为输入，并根据可自定义的格式生成文档注释。
 
 ## 特性
 
